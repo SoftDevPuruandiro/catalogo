@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
-  standalone: true, // ✅ necesario
+  standalone: true,
   imports: [RouterModule, CommonModule],
   templateUrl: './navbar.html',
   styleUrls: ['./navbar.scss']

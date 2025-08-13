@@ -17,8 +17,8 @@ export class Category {
   products: Product[] = [];
 
   allProducts: Product[] = [
-    { id: '1', name: 'Dama', image: 'products/dama/vestidoRojo.png', categoryId: 'women' },
-    { id: '2', name: 'Caballero', image: '/products/caballero/conjuntoTraje.png', categoryId: 'men' },
+    { id: '1', name: 'Dama', price: '320', image: 'products/dama/vestidoRojo.png', categoryId: 'women' },
+    { id: '2', name: 'Caballero', price: '234', image: '/products/caballero/conjuntoTraje.png', categoryId: 'men' },
   ];
 
   constructor(private route: ActivatedRoute) {
